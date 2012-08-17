@@ -1,0 +1,176 @@
+#liveblog-respond {
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#go_liveblog_comment {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	height: 200px;
+	margin: 0;
+	padding: 7px;
+	resize: vertical;
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#go_liveblog_comment {
+	height: 100px;
+}
+
+#liveblog-respond .secondary-button {
+	float: right;
+	margin: 0;
+	border-right-style: none;
+	border-bottom-style: none;
+	height: 26px;
+}
+
+.liveblog-controls {
+	float: right;
+	list-style: none;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.post .liveblog-controls > li {
+	display: inline;
+	margin-bottom: 0;
+}
+
+.liveblog-controls .pause-play {
+	float: right;
+}
+
+.liveblog-controls .pause-play a {
+	display: inline-block;
+	text-transform: lowercase;
+}
+
+.liveblog-controls .pause-play .text {
+	margin-right: 10px;
+}
+
+.liveblog-controls .pause-play .toggle {
+	background-image: url(../img/play_pause.png);
+	display: inline-block;
+	height: 20px;
+	text-indent: -9999px;
+	width: 20px;
+
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+}
+
+.liveblog-controls .pause-play a:hover .toggle {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.liveblog-controls .pause-play .toggle.play {
+	background-position: -20px 0;
+}
+
+.post .go-liveblog {
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	overflow: auto;
+	padding-top: 14px;
+	padding-left: 0;
+}
+
+.post .go-liveblog > li {
+	margin-left: 0;
+	padding: 10px 0;
+}
+
+.liveblog-tools {
+	clear: both;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.go-liveblog-tool {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.post .go-liveblog-tool::first-letter {
+	float: none;
+	font: normal;
+	font-size: auto;
+	margin: 0;
+}
+
+.post .go-liveblog-ended {
+	color: #abacae;
+	padding: 0;
+}
+
+.post .go-liveblog .cached {
+	background: #eee;
+	color: #333;
+	display: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	padding: 15px;
+	text-align: center;
+
+	text-shadow: 0 1px 0px #fff;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.post .go-liveblog .cached .message {
+	color: #555;
+	display: block;
+	text-decoration: none;
+}
+
+.post .go-liveblog .cached .plural {
+	display: inline;
+}
+
+.post .go-liveblog .cached .updates {
+	display: none;
+}
+
+.post .go-liveblog li {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ededee;
+}
+
+.post .go-liveblog li .comment-sharing {
+	margin: 0;
+	padding-left: 0;
+}
+
+.post .go-liveblog li .go-liveblog-meta {
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.post .go-liveblog li .go-liveblog-meta time {
+	color: #aaa;
+}
+
+.go-liveblog p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#liveblog-respond label {
+	display: block;
+	padding-top: 3px;
+}
+
