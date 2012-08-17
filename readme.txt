@@ -1,5 +1,5 @@
 === GigaOM Liveblog ===
-Contributors: Adam Kazwell, bernadettetowner, borkweb, Ian Kennedy, Jonathan Koshi, misterbisson, Oren Kredo, poitra, Stephen Engert, vhauri, zbtirrell
+Contributors: Adam Kazwell, bernadettetowner, borkweb, Ian Kennedy, Jonathan Koshi, methnen,  misterbisson, Oren Kredo, Stephen Engert, vhauri, zbtirrell
 Tags: liveblog
 Requires at least: 3.0
 Tested up to: 3.4.1
